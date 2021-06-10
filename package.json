@@ -1,0 +1,19 @@
+{
+  "name": "12_2021_06_09",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neret22/03_new_teacher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/neret22/03_new_teacher/issues"
+  },
+  "homepage": "https://github.com/neret22/03_new_teacher#readme",
+  "description": ""
+}
