@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        .green{
+            color: green;
+        }
+        .hide{
+            display: none;
+        }
+        .red-color{
+            color: red;
+        }
+        #app{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        #app > div{
+            width: 30%;
+            
+        }
+    </style>
+    <!--  <script src="app.js" defer></script> defer - perform script after complete script load-->
+    <!-- <script src="app.js" async></script> -->
+   <!--  <script src="app.js" ></script> -->
+</head>
+<body>
+    <h1>Hello World</h1>
+    <div id="main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, iure!</div>
+    <ul>
+        <li>Text 1</li>
+        <li>Text 2</li>
+        <li>Text 3</li>
+        <li>Text 4</li>
+        <li>Text 5</li>
+    </ul>
+   <!-- read emmet.io -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis sequi autem distinctio ea quos veritatis tenetur quod voluptate est, aliquam ab ipsa qui possimus!</p>
+    <p class="red">Lorem ipsum dolor sit amet.</p>
+
+    <p class="hide js-hide">Hello, from hidden!</p>
+
+    <form action="">
+        <input type="text" name="fName">
+    </form>
+
+
+    <section id = "app"></section>
+
+    <!-- <script src="script.js"></script> -->
+    <script src="./app.js"></script>
+</body>
+</html>
