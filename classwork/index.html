@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <style>
+        .done{
+            text-decoration: line-through;
+            color: red;
+        }
+        li{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3></h3>
+    </header>
+    <section>
+        <form action="#" id="todoForm">
+            <input type="text" id = "newToDoField" placeholder="Add new ToDo record">
+            <button type="submit">Add</button>
+        </form>
+    </section>
+    <hr>
+    <section>
+        <ul id = "todoList"></ul>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
